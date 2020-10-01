@@ -1,0 +1,16 @@
+Kyle Miller, Jusraunaq Farmahan, Paulina Valdez
+
+1) Paragraph 1: This is well-written.  Occasionally there are unnecessary words, but this paragraph does the job of explaining a lot.  Variations in fatality rate due to measurement techniques, age, on the onset of new treatments are all discussed.  The second main idea of paragraph 1 is that elderly patients face additional complications, especially when they have cancer.  This second line of thought should be split into a second paragraph.
+2) Paragraph 2: The sentences after "The data collected can be used..." can be cut or largely shortened without changing the meaning and purpose of the paragraph.  From what I can tell, the point of the paragraph is to communicate how COVID researchers are searching for changes in infection rates before and after social distancing takes effect.
+3) Paragraph 3: first sentence, "prevented" substitute with "mitigated" or "decreased."
+4) Paragraph 3: The last half of this paragraph goes into detail regarding measures one can take to prevent catching the disease.  It's good writing, but I did not expect it to be there.  I didn't see it coming.  What would have helped me is to shorten the paragraph and then explain in the opening sentence that the purpose is to tell the reader how to avoid the disease.  For example:
+
+"The chances of being infected or spreading COVID-19 can be prevented by taking some
+simple precautions like regularly and thoroughly cleaning hands with an alcohol-based hand rub
+or washing them with soap and water because doing so kills viruses that may be on one’s hands."
+
+This is a sentence explaining what I should do to protect my hands.  But since this is the opening sentence, make it more general:
+
+"The probability of being infected with COVID-19 may be lowered by taking simple precautions.  For example, regulary washing hands with alcohol, and avoiding touching the face will both lower the risk substantially."
+
+9 out of 10 points
