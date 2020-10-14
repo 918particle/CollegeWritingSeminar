@@ -202,6 +202,80 @@ Become sharp in \textit{at least one} of these sorts of programs:
 \alert{Wardman Library MADLAB and DigLibArts Collaboratory} are there to help you learn.
 \end{frame}
 
+\begin{frame}{Creating Figures and Tables}
+\small
+\begin{figure}
+\includegraphics[width=0.4\textwidth]{figures/outbreak.png}
+\caption{\label{fig:outbreak2} \textbf{This is the caption.  What belongs here?}}
+\end{figure}
+\begin{itemize}
+\item Yes: Descriptive language: spatial (mostly) and temporal
+\item Yes: Guiding the reader through the figure in a logical way (colors, legend, axes, ...)
+\item No: Do not provide analysis, opinions, or conclusions in the caption.
+\item No: Do not write a long caption.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Creating Figures and Tables}
+\small
+\begin{figure}
+\includegraphics[width=0.4\textwidth]{figures/outbreak.png}
+\caption{\label{fig:outbreak3} \textbf{This is the caption.  What belongs here?}}
+\end{figure}
+\begin{itemize}
+\item Yes: Descriptive language: spatial (mostly) and temporal
+\item Yes: Guiding the reader through the figure in a logical way (colors, legend, axes, ...)
+\item No: Do not provide analysis, opinions, or conclusions in the caption.
+\item No: Do not write a long caption.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Creating Figures and Tables}
+\small
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{figures/outbreak3.png}
+\caption{\label{fig:outbreak4} The number of new cases per day, versus time in days since the first reported case.  The solid black line corresponds to the State of California, the black circles correspond to the State of Colorado, and the pink line corresponds to the State of Kansas.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Creating Figures and Tables}
+\small
+\begin{figure}
+\includegraphics[width=0.75\textwidth]{figures/dipole.png}
+\caption{\label{fig:outbreak5} Write the caption that should go here.}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Creating Figures and Tables}
+\small
+Example code in gnuplot to create the first outbreak figure:
+\begin{verbatim}
+set key box off
+set lmargin 10
+set bmargin 5
+set xtics font "Arial,20"
+set ytics font "Arial,20"
+set xlabel "Time (days) since Outbreak" font "Arial,22" offset 0,-1
+set ylabel "Number of New Cases" font "Arial,22" offset -2,0
+set xrange [1:20]
+set yrange [1:60]
+set grid
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]{Creating Figures and Tables}
+\small
+Example code in gnuplot to create the first outbreak figure:
+\begin{verbatim}
+a = 51
+b = 0.1
+f(x) = a*(1-exp(-b*x))
+set terminal png
+set output "outbreak.png"
+plot f(x) w l lc -1 lw 2
+\end{verbatim}
+\end{frame}
+
 \section{Conclusion}
 
 \begin{frame}{Conclusion}
