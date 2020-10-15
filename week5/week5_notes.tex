@@ -276,6 +276,64 @@ plot f(x) w l lc -1 lw 2
 \end{verbatim}
 \end{frame}
 
+\begin{frame}[fragile]{Creating Figures and Tables}
+Here is an excellent example of a gnuplot-tutorial: \\
+\url{http://gnuplot.respawned.com}
+\begin{enumerate}
+\item Go to this website
+\item You will see a file called data.txt (scroll past this)
+\item You will see a file with gnuplot code.  You can edit this file to change the plot
+\item Without deleting the upper block setting the terminal and output, edit the lower block to change what is being plotted
+\item Create a plot of $\sin(x)$ by writing \verb+plot sin(x)+
+\item Try other functions
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{Creating Figures and Tables}
+Creating tables requires similar attention to detail.
+\begin{table}
+\centering
+\begin{tabular}{| c | c | c | c | c | c |}
+\hline
+\hline
+Major & 2015 & 2016 & 2017 & 2018 & 2019 \\ \hline
+Chinese & 6 & 2 & 2 & 2 & 2 \\ \hline
+French & 6 & 6 & 6 & 1 & 3 \\ \hline
+Spanish & 22 & 14 & 18 & 9 & 17 \\ \hline
+\hline
+\end{tabular}
+\caption{\label{tab:lang} Whittier College foreign language majors by year.  In the columns from left to right, the number of undergraduate degrees awarded from the years 2015 to 2019 is shown.  In the rows, three different language programs are listed.}
+\end{table}
+\end{frame}
+
+\begin{frame}[fragile]{Creating Figures and Tables}
+\small
+\begin{table}
+\centering
+\begin{tabular}{| c | c | c | c | c | c |}
+\hline
+\hline
+System & Mass (kg) & Start time & Stop time & $\vec{p}$ (kg m s$^{-1}$) & x \\ \hline
+A & 0.2 & 0 & 10.2 & 0.1 & $\sqrt{-1}$ \\ \hline
+B & 0.05 & -0.1 & 11.9 & 0.1 & $q$ \\ \hline
+C & 0.11 & 0 & 9.8 & 0.2 & elephant \\ \hline
+\hline
+\end{tabular}
+\caption{\label{tab:lang} List several things wrong with this table.}
+\end{table}
+\end{frame}
+
+\begin{frame}{Creating Figures and Tables}
+\alert{Referencing} Figures and Tables
+\begin{itemize}
+\item As shown in Fig. 1, ...
+\item Figure 7 displays the data ...
+\item The data shown in Tab. 2 indicates ...
+\item The black circles in Fig. 2 denote the ...
+\end{itemize}
+Pro-tips: (1) We are still using passive voice, so ``Fig'' or ``Tab'' should be treated like the object, (2) try not to begin the sentence with Figure or Table.
+\end{frame}
+
 \section{Conclusion}
 
 \begin{frame}{Conclusion}
